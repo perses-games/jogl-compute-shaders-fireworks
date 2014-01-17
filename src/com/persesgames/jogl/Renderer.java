@@ -122,6 +122,10 @@ public class Renderer implements GLEventListener  {
 
         delta = (nanoDelta / 1000000000f);
 
+        if (keyboard.isPressed(KeyEvent.VK_CONTROL)) {
+            delta = delta / 10f;
+        }
+
         lastDelta = System.nanoTime();
     }
 
