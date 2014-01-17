@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0193c0b3-1608-4943-8e86-0ee275fde56d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jogl-compute-shaders-fireworks.iws" />
@@ -70,7 +69,7 @@
       <file leaf-file-name="Renderer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="0" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.8658147" vertical-offset="1654" max-vertical-offset="3546">
+            <state line="125" column="32" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.7220447" vertical-offset="1654" max-vertical-offset="3546">
               <folding />
             </state>
           </provider>
@@ -545,7 +544,7 @@
       <workItem from="1389957808723" duration="3152000" />
       <workItem from="1389960966918" duration="149000" />
       <workItem from="1389961142491" duration="311000" />
-      <workItem from="1389961462865" duration="4767000" />
+      <workItem from="1389961462865" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1389958488400</created>
@@ -571,11 +570,15 @@
       <created>1389961147844</created>
       <updated>1389961147844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleanup&#10;">
+      <created>1389982573923</created>
+      <updated>1389982573923</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8436000" />
+    <option name="totallyTimeSpent" value="8553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="437" y="0" width="1483" height="1152" extended-state="0" />
@@ -939,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="3952" selection-end="3952" vertical-scroll-proportion="0.8658147" vertical-offset="1654" max-vertical-offset="3546">
+        <state line="125" column="32" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.7220447" vertical-offset="1654" max-vertical-offset="3546">
           <folding />
         </state>
       </provider>
