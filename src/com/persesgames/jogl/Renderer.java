@@ -163,17 +163,17 @@ public class Renderer implements GLEventListener  {
 
         timer.stop("compute");
 
-        timer.start("draw");
-
-        explosionComputeHandler.render();
-
-        timer.stop("draw");
-
         timer.start("getGpuData");
 
         explosionComputeHandler.getGpuData();
 
         timer.stop("getGpuData");
+
+        timer.start("draw");
+
+        explosionComputeHandler.render();
+
+        timer.stop("draw");
 
         timer.log();
 

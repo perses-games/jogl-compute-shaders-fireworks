@@ -1,9 +1,6 @@
 #version 430 core
 #define pi 3.141592653589793238462643383279
 
-precision mediump float;
-precision mediump int;
-
 struct explosion {
         vec4        positionVelocity;
         vec4        color;
@@ -29,7 +26,6 @@ void main() {
         vec4 color = e[gid].color;
 
         if (color.a > 0.0) {
-            //velocity = velocity * 0.99;
             position = position + velocity * delta * color.a;
             color.a = color.a - (delta / 2);
         } else {

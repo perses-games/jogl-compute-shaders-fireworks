@@ -1,8 +1,4 @@
 #version 430 core
-#define pi 3.141592653589793238462643383279
-
-precision mediump float;
-precision mediump int;
 
 struct explosion {
         vec4        positionVelocity;
@@ -22,10 +18,8 @@ void main() {
     uint last = atomicCounter(lastCounter);
 
     if (gid < last && last > 0) {
-        vec4 color = e[gid].color;
-
-        if (color.a == 0.0) {
-            uint old = atomicCounterDecrement(lastCounter);
+        if (e[gid].color.a == 0.0) {
+            uint old = atomicCounterDecrement(lastCounter) - 1;
 
             e[gid].positionVelocity = e[old].positionVelocity;
             e[gid].color = e[old].color;

@@ -22,7 +22,7 @@ public class ExplosionComputeHandler {
     private final static Logger logger = LoggerFactory.getLogger(ExplosionComputeHandler.class);
 
     private final static int EXPLOSION_PARTICLES        = 256;
-    private final static int MAX_EXPLOSION_PARTICLES    = 1000000;
+    private final static int MAX_EXPLOSION_PARTICLES    = 250000;
 
     private final Random    random                      = new Random(System.nanoTime());
 
@@ -52,7 +52,7 @@ public class ExplosionComputeHandler {
         float x = random.nextFloat() * 2f - 1f;
         float y = random.nextFloat() * 2f - 1f;
 
-        if (newParticleCount > (MAX_EXPLOSION_PARTICLES - EXPLOSION_PARTICLES)) {
+        if ((particleCount + newParticleCount) > (MAX_EXPLOSION_PARTICLES - EXPLOSION_PARTICLES)) {
             return;
         }
 
@@ -108,10 +108,10 @@ public class ExplosionComputeHandler {
         gl.glBindBuffer(GL2ES2.GL_ARRAY_BUFFER, explHandle);
 
         // transfer data to VBO, this perform the copy of data from CPU -> GPU memory
-        // gl.glBufferData(GL.GL_ARRAY_BUFFER, particleCount * 4 * 8, explBuffer, GL.GL_DYNAMIC_DRAW);
         gl.glBufferSubData(GL.GL_ARRAY_BUFFER, particleCount * 4 * 8, newParticleCount * 4 * 8, explBuffer);
 
-        // Select the VBO, GPU memory data, to use for vertices
+        gl.glBindBuffer(GL2ES2.GL_ARRAY_BUFFER, 0);
+
         gl.glBindBuffer(GL4.GL_ATOMIC_COUNTER_BUFFER, atomicHandle);
 
         atomicBuffer.put(0, particleCount + newParticleCount);
@@ -119,7 +119,6 @@ public class ExplosionComputeHandler {
         // transfer data to VBO, this perform the copy of data from CPU -> GPU memory
         gl.glBufferData(GL4.GL_ATOMIC_COUNTER_BUFFER, 4, atomicBuffer, GL.GL_DYNAMIC_DRAW);
 
-        gl.glBindBuffer(GL2ES2.GL_ARRAY_BUFFER, 0);
         gl.glBindBuffer(GL4.GL_ATOMIC_COUNTER_BUFFER, 0);
 
         newParticleCount = 0;
