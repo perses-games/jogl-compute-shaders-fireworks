@@ -113,7 +113,6 @@ public class Renderer implements GLEventListener  {
     @Override
     public void dispose(GLAutoDrawable drawable) {
         explosionComputeHandler.dispose();
-
     }
 
     private long lastDelta = System.nanoTime();
@@ -128,8 +127,6 @@ public class Renderer implements GLEventListener  {
 
     @Override
     public void display(GLAutoDrawable drawable) {
-        //logger.info("display+" + System.currentTimeMillis());
-
         calculateCurrentDelta();
 
         GL4 gl = drawable.getGL().getGL4();
@@ -158,24 +155,6 @@ public class Renderer implements GLEventListener  {
         // Clear screen
         gl.glClearColor(0.1f, 0.0f, 0.1f, 1f);
         gl.glClear(GL2ES2.GL_COLOR_BUFFER_BIT);
-
-        timer.start("getCount");
-
-        /*
-        timer.start("BindBuffer");
-        gl.glBindBuffer(GL4.GL_ATOMIC_COUNTER_BUFFER, atomicHandle);
-        timer.stop("BindBuffer");
-        // again we map the buffer to userCounters, but this time for read-only access
-        timer.start("MapBufferRange");
-        ByteBuffer last = gl.glMapBufferRange(GL4.GL_ATOMIC_COUNTER_BUFFER, 0, 4, GL4.GL_MAP_READ_BIT);
-        timer.stop("MapBufferRange");
-        particleCount = last.getInt();
-        timer.start("UnmapBuffer");
-        gl.glUnmapBuffer(GL4.GL_ATOMIC_COUNTER_BUFFER);
-        timer.stop("UnmapBuffer");
-        */
-
-        timer.stop("getCount");
 
         timer.start("compute");
 

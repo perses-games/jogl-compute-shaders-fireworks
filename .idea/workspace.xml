@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0193c0b3-1608-4943-8e86-0ee275fde56d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-amd64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-i586.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-macosx-universal.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-amd64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-i586.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gluegen-rt.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-amd64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-i586.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-natives-macosx-universal.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-amd64.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-i586.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jogl-all-noawt.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/slf4j-simple-1.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/shader/ComputeProgram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Keyboard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/shader/ShaderProgram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Timer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explShader.frag" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explShader.vert" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosion.comp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jogl-compute-shaders-fireworks.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jogl-compute-shaders-fireworks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,7 +97,7 @@
       <file leaf-file-name="ExplosionComputeHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="490" selection-end="490" vertical-scroll-proportion="0.3051643" vertical-offset="147" max-vertical-offset="3726">
+            <state line="127" column="16" selection-start="4643" selection-end="4643" vertical-scroll-proportion="-0.802589" vertical-offset="2782" max-vertical-offset="3726">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +105,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestJogl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-7.92" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Renderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="0" selection-start="6298" selection-end="6298" vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="3852">
+            <state line="160" column="35" selection-start="4797" selection-end="4797" vertical-scroll-proportion="0.0" vertical-offset="2574" max-vertical-offset="3474">
               <folding />
             </state>
           </provider>
@@ -170,9 +155,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/jogl/Util.java" />
-        <option value="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explShader.vert" />
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
       </list>
     </option>
   </component>
@@ -226,6 +211,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jogl-compute-shaders-fireworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jogl-compute-shaders-fireworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jogl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jogl-compute-shaders-fireworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jogl-compute-shaders-fireworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -263,6 +280,118 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Application.TestJogl (1)">
     <configuration default="false" name="TestJogl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -424,19 +553,24 @@
       <created>1389957748775</created>
       <updated>1389957748775</updated>
       <workItem from="1389957751293" duration="57000" />
-      <workItem from="1389957808723" duration="676000" />
+      <workItem from="1389957808723" duration="1147000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1389958488400</created>
+      <updated>1389958488401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="733000" />
+    <option name="totallyTimeSpent" value="1204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="439" y="34" width="1481" height="1142" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -446,14 +580,14 @@
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33065328" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33065328" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="0" selection-start="6298" selection-end="6298" vertical-scroll-proportion="0.0" vertical-offset="3212" max-vertical-offset="3852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="1299" max-vertical-offset="1926">
@@ -528,9 +655,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-7.92" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="35" selection-start="4797" selection-end="4797" vertical-scroll-proportion="0.0" vertical-offset="2574" max-vertical-offset="3474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="490" selection-end="490" vertical-scroll-proportion="0.3051643" vertical-offset="147" max-vertical-offset="3726">
+        <state line="127" column="16" selection-start="4643" selection-end="4643" vertical-scroll-proportion="-0.802589" vertical-offset="2782" max-vertical-offset="3726">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
