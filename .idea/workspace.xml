@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0193c0b3-1608-4943-8e86-0ee275fde56d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/fireworks.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fireworks.png" afterPath="$PROJECT_DIR$/data/fireworks.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp" afterPath="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jogl-compute-shaders-fireworks.iws" />
@@ -67,30 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExplosionComputeHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3708">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestJogl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1008">
+            <state line="25" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.29252437" vertical-offset="0" max-vertical-offset="923">
+            <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
@@ -114,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="explosionCleanUp.comp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="explosionCleanUp.comp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="37" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="648">
+            <state line="21" column="58" selection-start="506" selection-end="506" vertical-scroll-proportion="0.39457202" vertical-offset="0" max-vertical-offset="958">
               <folding />
             </state>
           </provider>
@@ -179,16 +170,16 @@
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/shader/Program.java" />
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosion.comp" />
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java" />
-        <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp" />
         <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java" />
+        <option value="$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="439" />
-    <option name="y" value="34" />
-    <option name="width" value="1481" />
-    <option name="height" value="1142" />
+    <option name="x" value="437" />
+    <option name="width" value="1483" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -216,8 +207,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,7 +328,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -414,12 +405,10 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -432,10 +421,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -542,7 +533,8 @@
       <updated>1389957748775</updated>
       <workItem from="1389957751293" duration="57000" />
       <workItem from="1389957808723" duration="3152000" />
-      <workItem from="1389960966918" duration="26000" />
+      <workItem from="1389960966918" duration="149000" />
+      <workItem from="1389961142491" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1389958488400</created>
@@ -560,15 +552,19 @@
       <created>1389960710322</created>
       <updated>1389960710322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleanup&#10;">
+      <created>1389960995030</created>
+      <updated>1389960995030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3235000" />
+    <option name="totallyTimeSpent" value="3360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="439" y="34" width="1481" height="1142" extended-state="0" />
-    <editor active="true" />
+    <frame x="437" y="0" width="1483" height="1152" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -586,16 +582,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2543433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33065328" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -623,6 +619,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="36" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.0" vertical-offset="2898" max-vertical-offset="3618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/shader/ShaderProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="58" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosion.comp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/shader/ComputeProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/shader/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="2034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="40" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3744">
@@ -726,13 +785,6 @@
         <state line="22" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/shader/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="1038" max-vertical-offset="1926">
@@ -775,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/ExplosionComputeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="40" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3708">
@@ -793,7 +838,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.29252437" vertical-offset="0" max-vertical-offset="923">
+        <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fireworks.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/TestJogl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/persesgames/jogl/explosion/explosionCleanUp.comp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="58" selection-start="506" selection-end="506" vertical-scroll-proportion="0.39457202" vertical-offset="0" max-vertical-offset="958">
           <folding />
         </state>
       </provider>

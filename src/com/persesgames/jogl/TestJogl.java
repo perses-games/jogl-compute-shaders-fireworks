@@ -26,7 +26,7 @@ public class TestJogl {
 
         GLWindow glWindow = GLWindow.create(caps);
 
-        glWindow.setTitle("jogl-triangle");
+        glWindow.setTitle("jogl-compute-shaders-fireworks");
 
         glWindow.setSize(800, 800);
 

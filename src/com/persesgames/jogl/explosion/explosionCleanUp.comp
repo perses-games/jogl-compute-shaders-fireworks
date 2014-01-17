@@ -19,7 +19,7 @@ void main() {
 
     if (gid < last && last > 0) {
         if (e[gid].color.a == 0.0) {
-            uint old = atomicCounterDecrement(lastCounter) - 1;
+            uint old = atomicCounterDecrement(lastCounter);
 
             e[gid].positionVelocity = e[old].positionVelocity;
             e[gid].color = e[old].color;
