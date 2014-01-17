@@ -8,7 +8,9 @@ To run:
 * Make sure all libs in the lib directory are on the classpath
 * Run main class com.persesgames.jogl.TestJogl
 
-Press space to see some fireworks, press shift to see a lot of fireworks
+Press space to see some fireworks, press shift to see a lot of fireworks.
+
+Press shift for slow motion.
 
 Screenshot: 
 
