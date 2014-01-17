@@ -9,3 +9,7 @@ To run:
 * Run main class com.persesgames.jogl.TestJogl
 
 Press space to see some fireworks, press shift to see a lot of fireworks
+
+Screenshot: 
+
+![Fireworks](/data/fireworks.png "Fireworks")
