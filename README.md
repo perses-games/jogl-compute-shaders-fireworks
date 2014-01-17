@@ -1,7 +1,7 @@
 jogl-compute-shaders-fireworks
 ==============================
 
-Calculate particles with compute shaders (OpenGL 4.3)
+Calculate particles with compute shaders (OpenGL 4.3 core profile)
 
 To run:
 
