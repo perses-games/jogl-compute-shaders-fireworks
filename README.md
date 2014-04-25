@@ -10,7 +10,7 @@ To run:
 
 Press space to see some fireworks, press shift to see a lot of fireworks.
 
-Press shift for slow motion.
+Press ctrl for slow motion.
 
 Screenshot: 
 
