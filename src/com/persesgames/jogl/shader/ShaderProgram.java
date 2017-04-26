@@ -6,24 +6,6 @@ import org.slf4j.LoggerFactory;
 
 import javax.media.opengl.GL2ES2;
 
-/*-----------------------------------------------------+
- |                      App                             |
- |                    pPPAPPp                           |
- |                   APP  PPa                           |
- |                  APA  pPP  PapA  PapA                |
- |                 PPA   APA pP  P pP  P                |
- |             APPPPPPPA PPp Ap Ap Ap Ap                |
- |             apPPA    aPP  P     P                    |
- |              APA     pPP  p     p                    |
- |             pPP      PPA                             |
- |             PPp      PPPp                            |
- |                                                      |
- | Created by:    App Software                          |
- | Email:         info@appsoftware.nl                   |
- | Web:           http://www.appsoftware.nl/            |
- |                                                      |
- +-----------------------------------------------------*/
-
 public class ShaderProgram extends Program {
     private final static Logger logger = LoggerFactory.getLogger(Renderer.class);
 
