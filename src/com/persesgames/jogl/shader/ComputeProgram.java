@@ -2,24 +2,6 @@ package com.persesgames.jogl.shader;
 
 import javax.media.opengl.GL4;
 
-/*-----------------------------------------------------+
- |                      App                             |
- |                    pPPAPPp                           |
- |                   APP  PPa                           |
- |                  APA  pPP  PapA  PapA                |
- |                 PPA   APA pP  P pP  P                |
- |             APPPPPPPA PPp Ap Ap Ap Ap                |
- |             apPPA    aPP  P     P                    |
- |              APA     pPP  p     p                    |
- |             pPP      PPA                             |
- |             PPp      PPPp                            |
- |                                                      |
- | Created by:    App Software                          |
- | Email:         info@appsoftware.nl                   |
- | Web:           http://www.appsoftware.nl/            |
- |                                                      |
- +-----------------------------------------------------*/
-
 public class ComputeProgram extends Program {
 
     private GL4                 gl4;
