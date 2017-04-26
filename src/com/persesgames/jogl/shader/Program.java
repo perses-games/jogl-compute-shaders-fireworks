@@ -8,24 +8,6 @@ import javax.media.opengl.GL2ES2;
 import java.util.HashMap;
 import java.util.Map;
 
-/*-----------------------------------------------------+
- |                      App                             |
- |                    pPPAPPp                           |
- |                   APP  PPa                           |
- |                  APA  pPP  PapA  PapA                |
- |                 PPA   APA pP  P pP  P                |
- |             APPPPPPPA PPp Ap Ap Ap Ap                |
- |             apPPA    aPP  P     P                    |
- |              APA     pPP  p     p                    |
- |             pPP      PPA                             |
- |             PPp      PPPp                            |
- |                                                      |
- | Created by:    App Software                          |
- | Email:         info@appsoftware.nl                   |
- | Web:           http://www.appsoftware.nl/            |
- |                                                      |
- +-----------------------------------------------------*/
-
 public abstract class Program {
 
     protected GL2ES2              gl;
