@@ -68,7 +68,7 @@ public class Renderer implements GLEventListener  {
                 }
             }
 
-            stopped = keyboard.isPressed(KeyEvent.VK_ESCAPE);
+            stopped |= keyboard.isPressed(KeyEvent.VK_ESCAPE);
         }
 
         Renderer.this.glWindow.destroy();
@@ -112,6 +112,7 @@ public class Renderer implements GLEventListener  {
 
     @Override
     public void dispose(GLAutoDrawable drawable) {
+    	stop();
         explosionComputeHandler.dispose();
     }
 
