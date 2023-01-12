@@ -1,14 +1,22 @@
 package com.persesgames.jogl;
 
-import com.jogamp.newt.event.KeyEvent;
-import com.jogamp.newt.opengl.GLWindow;
-import com.persesgames.jogl.explosion.ExplosionComputeHandler;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
+import javax.media.opengl.DebugGL4;
+import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
+import javax.media.opengl.GL2ES2;
+import javax.media.opengl.GL4;
+import javax.media.opengl.GLAutoDrawable;
+import javax.media.opengl.GLEventListener;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.media.opengl.*;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
+import com.jogamp.newt.event.KeyEvent;
+import com.jogamp.newt.opengl.GLWindow;
+import com.persesgames.jogl.explosion.ExplosionComputeHandler;
 
 /**
  * Date: 10/25/13
@@ -95,10 +103,10 @@ public class Renderer implements GLEventListener  {
         gl.glGetIntegerv(GL2.GL_MAX_VERTEX_ATTRIBS, result, 0);
         logger.info("GL_MAX_VERTEX_ATTRIBS=" + result[0]);
 
-        gl.glGetIntegerv(GL4.GL_MAX_COMPUTE_WORK_GROUP_SIZE, result, 0);
+        glGetIntegerIndexed(gl, GL4.GL_MAX_COMPUTE_WORK_GROUP_SIZE, result);
         logger.info("GL_MAX_COMPUTE_WORK_GROUP_SIZE= {},{},{}", result[0], result[1], result[2]);
 
-        gl.glGetIntegerv(GL4.GL_MAX_COMPUTE_WORK_GROUP_COUNT, result, 0);
+        glGetIntegerIndexed(gl, GL4.GL_MAX_COMPUTE_WORK_GROUP_COUNT, result);
         logger.info("GL_MAX_COMPUTE_WORK_GROUP_COUNT= {},{},{}", result[0], result[1], result[2]);
 
         explosionComputeHandler = new ExplosionComputeHandler(gl);
@@ -109,6 +117,12 @@ public class Renderer implements GLEventListener  {
         timer.stop("init");
     }
 
+    // https://stackoverflow.com/questions/39004898/get-maximum-workgroup-size-for-compute-shaders
+    private static void glGetIntegerIndexed(GL4 gl, int target, int[] data) {
+        for(int i = 0; i < data.length; i++) {
+        	gl.glGetIntegeri_v(target, i, data, i);
+        }
+    }
 
     @Override
     public void dispose(GLAutoDrawable drawable) {
