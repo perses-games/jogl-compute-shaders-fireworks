@@ -10,7 +10,7 @@ import java.io.InputStream;
  */
 public class Util {
 
-    public static String loadAsText(Class cls, String name) {
+    public static String loadAsText(Class<?> cls, String name) {
         byte [] buffer = new byte[1024];
         int nr;
         try (InputStream in  = cls.getResourceAsStream(name); ByteArrayOutputStream out = new ByteArrayOutputStream()) {

@@ -1,12 +1,9 @@
 package com.persesgames.jogl.shader;
 
-import com.persesgames.jogl.Renderer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import javax.media.opengl.GL2ES2;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.media.opengl.GL2ES2;
 
 public abstract class Program {
 

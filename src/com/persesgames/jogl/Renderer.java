@@ -1,6 +1,5 @@
 package com.persesgames.jogl;
 
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import javax.media.opengl.DebugGL4;
@@ -25,9 +24,9 @@ import com.persesgames.jogl.explosion.ExplosionComputeHandler;
 public class Renderer implements GLEventListener  {
     private final static Logger logger = LoggerFactory.getLogger(Renderer.class);
 
-    private final static int MAX_ENTITIES_PER_COLOR     = 2000000;
+    //private final static int MAX_ENTITIES_PER_COLOR     = 2000000;
 
-    private final Random random         = new Random(System.nanoTime());
+    //private final Random random         = new Random(System.nanoTime());
 
     private volatile boolean stopped    = false;
     private volatile boolean dirty      = true;
@@ -41,7 +40,7 @@ public class Renderer implements GLEventListener  {
     private boolean                 checkError = false;
 
     private long                    lastLog = System.nanoTime();
-    private long                    start = System.currentTimeMillis();
+    //private long                    start = System.currentTimeMillis();
     private Timer                   timer = new Timer(TimeUnit.SECONDS, 1);
 
     private ExplosionComputeHandler explosionComputeHandler;
