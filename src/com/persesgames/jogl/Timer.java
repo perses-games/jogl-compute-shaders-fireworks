@@ -1,11 +1,11 @@
 package com.persesgames.jogl;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Date: 1/4/14
@@ -17,7 +17,7 @@ public class Timer {
     private Map<String, Long> start = new HashMap<>();
     private Map<String, Long> times = new HashMap<>();
     private Map<String, Long> calls = new HashMap<>();
-    private long nanoStart = System.nanoTime();
+    //private long nanoStart = System.nanoTime();
 
     private final TimeUnit unit;
     private final int units;
@@ -93,7 +93,7 @@ public class Timer {
         if (System.nanoTime() > (lastLog + unit.toNanos(units))) {
 
             for (String timer : times.keySet()) {
-                logger.info("Timer '{}' calls '{}' time '{}ms' time/call '{}ms'", timer, getCalls(timer), (getTime(timer) / 1000000d), (getTime(timer) / 1000000d) / (double)getCalls(timer));
+                logger.info("Timer '{}' calls '{}' time '{}ms' time/call '{}ms'", timer, getCalls(timer), (getTime(timer) / 1000000d), (getTime(timer) / 1000000d) / getCalls(timer));
             }
 
             reset();

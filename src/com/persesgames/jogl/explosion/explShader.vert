@@ -16,7 +16,7 @@ varying vec4 varying_Color;
 void main(void) {
     mat4    uniform_Projection = mat4(1);
 
-    gl_PointSize = 15f;
+    gl_PointSize = 15.0f;
     gl_Position = uniform_Projection * attribute_Position; //vec4(attribute_Position.x, attribute_Position.y, 0, 1);
     varying_Color = attribute_Color;
 }

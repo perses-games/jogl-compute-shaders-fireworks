@@ -1,25 +1,24 @@
 package com.persesgames.jogl.explosion;
 
-import com.jogamp.common.nio.Buffers;
-import com.persesgames.jogl.shader.ComputeProgram;
-import com.persesgames.jogl.shader.ShaderProgram;
-import com.persesgames.jogl.Util;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
+import java.util.Random;
 
 import javax.media.opengl.GL;
 import javax.media.opengl.GL2ES2;
 import javax.media.opengl.GL4;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import java.util.Random;
+
+import com.jogamp.common.nio.Buffers;
+import com.persesgames.jogl.Util;
+import com.persesgames.jogl.shader.ComputeProgram;
+import com.persesgames.jogl.shader.ShaderProgram;
 
 /**
  * Date: 1/15/14
  * Time: 8:23 PM
  */
 public class ExplosionComputeHandler {
-    private final static Logger logger = LoggerFactory.getLogger(ExplosionComputeHandler.class);
+    //private final static Logger logger = LoggerFactory.getLogger(ExplosionComputeHandler.class);
 
     private final static int EXPLOSION_PARTICLES        = 256;
     private final static int MAX_EXPLOSION_PARTICLES    = 250000;
