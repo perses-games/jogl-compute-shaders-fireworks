@@ -1,14 +1,21 @@
 package com.persesgames.jogl;
 
-import com.jogamp.newt.event.KeyEvent;
-import com.jogamp.newt.opengl.GLWindow;
-import com.persesgames.jogl.explosion.ExplosionComputeHandler;
+import java.util.concurrent.TimeUnit;
+
+import javax.media.opengl.DebugGL4;
+import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
+import javax.media.opengl.GL2ES2;
+import javax.media.opengl.GL4;
+import javax.media.opengl.GLAutoDrawable;
+import javax.media.opengl.GLEventListener;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.media.opengl.*;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
+import com.jogamp.newt.event.KeyEvent;
+import com.jogamp.newt.opengl.GLWindow;
+import com.persesgames.jogl.explosion.ExplosionComputeHandler;
 
 /**
  * Date: 10/25/13
@@ -17,9 +24,9 @@ import java.util.concurrent.TimeUnit;
 public class Renderer implements GLEventListener  {
     private final static Logger logger = LoggerFactory.getLogger(Renderer.class);
 
-    private final static int MAX_ENTITIES_PER_COLOR     = 2000000;
+    //private final static int MAX_ENTITIES_PER_COLOR     = 2000000;
 
-    private final Random random         = new Random(System.nanoTime());
+    //private final Random random         = new Random(System.nanoTime());
 
     private volatile boolean stopped    = false;
     private volatile boolean dirty      = true;
@@ -33,7 +40,7 @@ public class Renderer implements GLEventListener  {
     private boolean                 checkError = false;
 
     private long                    lastLog = System.nanoTime();
-    private long                    start = System.currentTimeMillis();
+    //private long                    start = System.currentTimeMillis();
     private Timer                   timer = new Timer(TimeUnit.SECONDS, 1);
 
     private ExplosionComputeHandler explosionComputeHandler;
@@ -68,7 +75,7 @@ public class Renderer implements GLEventListener  {
                 }
             }
 
-            stopped = keyboard.isPressed(KeyEvent.VK_ESCAPE);
+            stopped |= keyboard.isPressed(KeyEvent.VK_ESCAPE);
         }
 
         Renderer.this.glWindow.destroy();
@@ -95,10 +102,10 @@ public class Renderer implements GLEventListener  {
         gl.glGetIntegerv(GL2.GL_MAX_VERTEX_ATTRIBS, result, 0);
         logger.info("GL_MAX_VERTEX_ATTRIBS=" + result[0]);
 
-        gl.glGetIntegerv(GL4.GL_MAX_COMPUTE_WORK_GROUP_SIZE, result, 0);
+        glGetIntegerIndexed(gl, GL4.GL_MAX_COMPUTE_WORK_GROUP_SIZE, result);
         logger.info("GL_MAX_COMPUTE_WORK_GROUP_SIZE= {},{},{}", result[0], result[1], result[2]);
 
-        gl.glGetIntegerv(GL4.GL_MAX_COMPUTE_WORK_GROUP_COUNT, result, 0);
+        glGetIntegerIndexed(gl, GL4.GL_MAX_COMPUTE_WORK_GROUP_COUNT, result);
         logger.info("GL_MAX_COMPUTE_WORK_GROUP_COUNT= {},{},{}", result[0], result[1], result[2]);
 
         explosionComputeHandler = new ExplosionComputeHandler(gl);
@@ -109,9 +116,16 @@ public class Renderer implements GLEventListener  {
         timer.stop("init");
     }
 
+    // https://stackoverflow.com/questions/39004898/get-maximum-workgroup-size-for-compute-shaders
+    private static void glGetIntegerIndexed(GL4 gl, int target, int[] data) {
+        for(int i = 0; i < data.length; i++) {
+        	gl.glGetIntegeri_v(target, i, data, i);
+        }
+    }
 
     @Override
     public void dispose(GLAutoDrawable drawable) {
+    	stop();
         explosionComputeHandler.dispose();
     }
 
